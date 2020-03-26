@@ -1,8 +1,13 @@
 {
-  "name": "zazu-template",
+  "name": "zazu-clickup",
   "version": "1.0.0",
-  "description": "Zazu Template for starting your own plugin.",
+  "description": "Zazu ClickUp plugin",
   "main": "zazu.js",
+  "api_url": "https://api.clickup.com/api/v2/",
+  "api_key" : "YOUR_API_KEY",
+  "list_id": "YOUR_LIST_ID",
+  "assignees": [YOUR_ASSIGNEES_ID],
+  "notify_all": false,
   "scripts": {
     "lint": "eslint .",
     "test": "mocha ./test"
